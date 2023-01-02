@@ -1,2 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.matrix{
+    height: 95vh;
+    width: 95vw;
+    background: pink;
+    border: 5px solid limegreen;
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 1fr;
+}
+.row{
+    background: rgb(73, 10, 10);
+    margin: .5rem .5rem;
+    display: grid;
+    
+}
 
-/* Your CSS Code here. */
+.row1{
+    grid-template-columns: 1fr 2fr;
+}
+.row2{
+    grid-template-columns: 1fr 1fr;
+    /* grid-row-start: ; */
+}
+.row3{
+    grid-template-columns: 1fr 1fr;
+    /* grid-row-start: ; */
+}
+
+#r1c1{
+    border: 1px dashed black;
+    background-color: darkcyan;
+    /* padding: 5px 10px; */
+}
+#r1c2{
+    background-color:rgb(212, 196, 212);
+    border: 1px dashed black;
+    /* padding: 5px 10px; */
+}
+#r2c1{
+    background-color: coral;
+    border: 1px dashed black;
+    margin-left: 65%;
+    width: 35%;
+    /* padding: 5px 10px; */
+}
+#r2c2{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: 35%;
+    margin-left: 65%;
+    /* padding: 5px 10px; */
+    /* color: brown; */
+}
+#r3c1{
+    background-color: orchid;
+    border: 1px dashed black;
+    /* background-color: lime; */
+    width: 35%;
+    margin-left: 65%;
+    /* padding: 5px 10px; */
+}
+#r3c2{
+    background-color: lawngreen;
+    border: 1px dashed black;
+    width: 35%;
+    /* padding: 5px 10px; */
+}
