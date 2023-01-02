@@ -14,7 +14,7 @@
 .row{
     background: rgb(73, 10, 10);
     /* below left-right margin was not implemented due to higher bootstrap priority */
-    margin: .5rem .5rem !important; 
+    /* margin: .5rem .5rem !important;  */
     /* display: grid; */
     
 }
