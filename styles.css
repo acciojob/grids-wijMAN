@@ -14,7 +14,7 @@
 .row{
     background: rgb(73, 10, 10);
     /* below left-right margin was not implemented due to higher bootstrap priority */
-    /* margin: .5rem .5rem !important;  */
+    margin: .5rem .5rem !important; 
     /* display: grid; */
     
 }
@@ -29,33 +29,33 @@
     grid-template-columns: 1fr 1fr;
 } */
 
-#r1c1{
+.r1c1{
     border: 1px dashed black;
     background-color: darkcyan;
 }
-#r1c2{
+.r1c2{
     background-color:rgb(212, 196, 212);
     border: 1px dashed black;
 }
-#r2c1{
+.r2c1{
     background-color: coral;
     border: 1px dashed black;
     /* margin-left: 65%;
     width: 35%; */
 }
-#r2c2{
+.r2c2{
     background-color: aqua;
     border: 1px dashed black;
     /* width: 35%;
     margin-left: 65%; */
 }
-#r3c1{
+.r3c1{
     background-color: orchid;
     border: 1px dashed black;
     /* width: 35%;
     margin-left: 65%; */
 }
-#r3c2{
+.r3c2{
     background-color: lawngreen;
     border: 1px dashed black;
     /* width: 35%; */
